@@ -1,0 +1,49 @@
+@import "../../../../styles/values";
+.cart {
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	justify-content: space-between;
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+		@media screen and (max-width: $width720) {
+			transform: scale(1.05);
+		}
+	}
+	box-shadow: var(--shadow-color-info-job);
+}
+
+.image {
+	width: auto;
+	height: 200px;
+	object-fit: cover;
+}
+
+.name {
+	margin: 0px;
+	padding: 5px 10px;
+	text-align: center;
+
+	color: var(--nav-color-text);
+}
+
+.button {
+	text-decoration: none;
+	text-align: center;
+
+	padding: 10px 5px;
+	margin: 5px;
+	font-size: 22px;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	color: var(--nav-color-text);
+	transition: 0.3s ease-in-out;
+	border-radius: 20px;
+	background-color: var(--hover-nav-color-active);
+	&:hover {
+		color: var(--nav-color-text-active);
+	}
+}

@@ -1,0 +1,45 @@
+@import "../../../../styles/values";
+.button {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+}
+.openImage {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1002;
+}
+.loading {
+	min-height: 250px;
+	min-width: 300px;
+	background-color: var(--hover-nav-color);
+	border-radius: 20px;
+	@media screen and (max-width: $width600) {
+		max-width: 300px;
+		height: auto;
+	}
+}
+
+.image {
+	border-radius: 20px;
+	overflow: hidden;
+	height: 250px;
+	width: auto;
+	@media screen and (max-width: $width600) {
+		max-width: 300px;
+		height: auto;
+	}
+	@media screen and (max-width: $width420) {
+		max-width: 280px;
+	}
+}
+.open {
+	border: 3px solid var(--nav-color-text-active);
+	width: 60vw;
+	height: auto;
+	@media screen and (max-width: $width900) {
+		width: 80vw;
+	}
+}

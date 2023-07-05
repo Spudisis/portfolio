@@ -1,0 +1,79 @@
+@import "../../styles/values";
+.navBar {
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 1000;
+	@media screen and (max-width: $width720) {
+		top: 100%;
+		right: 50%;
+		transform: translate(50%, -100%);
+	}
+}
+.list {
+	padding: 0px;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 20px;
+	@media screen and (max-width: $width720) {
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 20px;
+	}
+}
+
+.item_link {
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.image {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	transition: $transition;
+	&:hover {
+		cursor: pointer;
+		width: 60px;
+		margin: -5px 0px 0px -5px;
+		height: 60px;
+	}
+}
+.email {
+	position: absolute;
+	right: -400px;
+	top: 5px;
+	width: 260px;
+	color: var(--nav-color-text);
+	background-color: var(--hover-nav-color-active);
+	padding: 10px;
+	border-radius: 10px;
+	@media screen and (max-width: $width720) {
+		right: -280px;
+		top: 100px;
+	}
+	@media screen and (max-width: $width600) {
+		width: 100vw;
+		text-align: center;
+		right: 50%;
+		top: 200px;
+		transform: translate(30%, -120%);
+	}
+}
+.item_link:hover {
+	.email {
+		transition: 0.3s ease;
+		right: 0px;
+		@media screen and (max-width: $width720) {
+			right: -280px;
+			top: 5px;
+		}
+		@media screen and (max-width: $width600) {
+			right: 50%;
+			transform: translate(30%, -120%);
+			top: 5px;
+		}
+	}
+}

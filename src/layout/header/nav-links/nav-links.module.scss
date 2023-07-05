@@ -1,0 +1,89 @@
+@import "../../../styles/values";
+.listLink {
+	display: flex;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	@media screen and (max-width: $width600) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+}
+.link {
+	position: relative;
+	overflow: hidden;
+	width: 180px;
+	height: 50px;
+	border-radius: 20px;
+	padding: 5px 10px;
+	text-align: center;
+	line-height: 45px;
+
+	font-size: 26px;
+	margin-left: 10px;
+	transition: $transition;
+	font-weight: 600;
+	text-decoration: none;
+
+	&:hover {
+		background-color: var(--hover-nav-color);
+		cursor: pointer;
+		&:before {
+			animation: moveLight 1s ease-in-out;
+		}
+	}
+	&:before {
+		content: ""; /* отображает псевдоэлемент */
+		position: absolute; /* абсолютное позиционирование */
+		top: 0; /* верхняя координата */
+		left: 0; /* левая координата */
+		width: 3em; /* относительная ширина */
+		height: 100%; /* высота как у оригинала */
+		background-color: rgba(182, 182, 182, 0.3); /* белый цвет с полупрозрачностью */
+		transform: translateX(-4em) skewX(-45deg);
+	}
+
+	@media screen and (max-width: $width1080) {
+		width: 150px;
+		height: 50px;
+
+		padding: 5px 5px;
+
+		line-height: 45px;
+		margin-left: 8px;
+		font-size: 22px;
+	}
+	@media screen and (max-width: $width720) {
+		width: 120px;
+		font-size: 18px;
+		padding: 2px;
+		height: 40px;
+		line-height: 35px;
+	}
+	@media screen and (max-width: $width600) {
+		width: 180px;
+		height: 50px;
+		padding: 5px 10px;
+		line-height: 45px;
+		font-size: 26px;
+		margin-left: 0px;
+		margin: 10px 0px;
+	}
+}
+.inactive {
+	color: var(--nav-color-text);
+}
+.active {
+	color: var(--nav-color-text-active);
+	background-color: var(--hover-nav-color-active);
+}
+@keyframes moveLight {
+	from {
+		transform: translateX(-4em) skewX(-45deg);
+	}
+	to {
+		transform: translateX(10em) skewX(-45deg);
+	}
+}

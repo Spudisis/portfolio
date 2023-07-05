@@ -1,0 +1,37 @@
+@import "../../styles/values";
+@import "../../styles/mixin";
+.content {
+	max-width: $width1280;
+	margin: 0 auto;
+	height: 100%;
+	padding: 50px;
+	@media screen and (max-width: $width720) {
+		padding: 50px 10px 80px;
+	}
+}
+
+.wrapper {
+	background-image: var(--background-color-section-odd);
+	height: 100%;
+	@include borderSection;
+}
+
+.header {
+	@include headerSection;
+}
+.listProjects {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 30px;
+	@media screen and (max-width: $width1080) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media screen and (max-width: $width720) {
+		column-gap: 15px;
+		row-gap: 15px;
+	}
+	@media screen and (max-width: $width420) {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

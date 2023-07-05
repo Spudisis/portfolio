@@ -1,0 +1,51 @@
+@import "../../styles/values";
+@import "../../styles/mixin";
+
+.header {
+	height: 10vh;
+	max-width: $width1280;
+	@include center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media screen and (max-width: $width1280) {
+		padding: 0px 10px;
+	}
+}
+
+.listLinks {
+	@media screen and (max-width: $width600) {
+		display: none;
+	}
+}
+.menu {
+	display: none;
+	@media screen and (max-width: $width600) {
+		display: block;
+	}
+}
+
+.modal {
+	position: absolute;
+	background-color: var(--background-color);
+	z-index: 1001;
+	width: 100vw;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+}
+.close {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	background-color: inherit;
+	border: none;
+	color: red;
+	font-size: 100px;
+	cursor: pointer;
+	&:after {
+		display: inline-block;
+		content: "\00d7";
+	}
+}
+//--hover-nav-color-active

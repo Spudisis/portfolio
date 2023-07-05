@@ -1,0 +1,124 @@
+{
+	"notFound": "Page not found",
+	"header": {
+		"main": "Main",
+		"aboutMe": "About me",
+		"projects": "My projects"
+	},
+	"infoBlock": {
+		"hello": "Hello there! My name's",
+		"name": "Alexander",
+		"nextInfo": "and i'm",
+		"frontend": "Frontend developer"
+	},
+	"aboutMeGeneral": {
+		"header": "About me",
+		"me": "I am Alexander. I live in Dzerzhinsk, Nizhny Novgorod region. I started immersing myself in IT 4 years ago from learning C#, later moved to frontend and a year later started my career as a layout designer on a freelance exchange.",
+		"me2": "Studied new technologies and later switched to React. I found my first job in a team, where I improved my skills in both development and communication skills in joint development to achieve common goals. He has also worked on various projects ranging from simple Django template development to a large website builder. ",
+		"me3": "I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers, both for full-time and project work in a friendly team :). Always in touch."
+	},
+	"aboutMeSkills": {
+		"header": "Development stack"
+	},
+	"aboutMeExp": {
+		"header": "My experience"
+	},
+	"job": {
+		"jobResponse": "Job responsibilities",
+		"developStack": "Development stack",
+		"achievements": "Achievements",
+		"first": {
+			"date": "September 2022 - June 2023",
+			"nameJob": "Website builder",
+			"description": "Project work. Development of analogues of existing constructors using dran'n'drop to move elements.",
+			"stack": {
+				"1": "TypeScript",
+				"2": "React",
+				"3": "Mobx",
+				"4": "i18n",
+				"5": "react-dnd",
+				"6": "rect-hook-form",
+				"7": "styled-components"
+			},
+			"requiredJob": {
+				"1": "Development of the constructor and user profile",
+				"2": "Writing Application Logic",
+				"3": "Writing adaptive and cross-browser layout according to the layout with Figma",
+				"4": "Conducting a code review"
+			},
+			"achievepments": "Optimized the algorithm for updating a heavily nested object, which increased performance by 68%"
+		},
+		"second": {
+			"date": "April 2022 - August 2022",
+			"nameJob": "Marketplace",
+			"description": "Project work, marketplace development.",
+			"stack": { "1": "TypeScript", "2": "React", "3": "Redux Toolkit", "4": "rect-hook-form", "5": "scss" },
+			"requiredJob": {
+				"1": "Development of product pages and category list",
+				"2": "Admin panel development",
+				"3": "Writing Application Logic",
+				"4": "Code refactoring"
+			},
+			"achievepments": "Integrated into the main application a new part of the functionality from another application"
+		},
+		"third": {
+			"date": "September 2021 - March 2022",
+			"nameJob": "Corporate website",
+			"description": "Design work at Imex LLC, website development for employees.",
+			"stack": { "1": "Django", "2": "TypeScript", "3": "scss" },
+			"requiredJob": {
+				"1": "Layout of accessible, semantic pages",
+				"2": "Writing Application Logic",
+				"3": "Responsive and cross-browser layout",
+				"4": "Website design development",
+				"5": "Working with legacy code",
+				"6": "Refactoring someone else's code"
+			},
+			"achievepments": "Improved semantics and accessibility on existing pages"
+		},
+		"four": {
+			"date": "June 2021 - August 2021",
+			"nameJob": "Registration of intellectual property",
+			"description": "Internship at AO НИИК.",
+			"stack": { "1": "React", "2": "TypeScript", "3": "MUI", "4": "Redux Toolkit", "5": "Formik" },
+			"requiredJob": { "1": "Writing Application Logic", "2": "Responsive and cross-browser layout" },
+			"achievepments": ""
+		}
+	},
+	"projects": {
+		"header": "My projects",
+		"more": "More",
+		"visit": "Visit",
+		"back": "Back",
+		"project": {
+			"1": {
+				"name": "Music player",
+				"description": "Custom player for playing music. You need to insert a link in the input field, take it in the project description on GitHub."
+			},
+			"2": {
+				"name": "Extension for VK spam reactions",
+				"description": "'Get your neighbor', when the script is enabled, the selected reaction will be put on each message of the specified user."
+			},
+			"3": {
+				"name": "Extension for VK documents",
+				"description": "Comfortable viewing of gif files, compared to the original."
+			},
+			"4": {
+				"name": "Game calculator",
+				"description": "Genshin Impact Calculator. Allows you to calculate the currency to save for future heroes and the remainder of the calculations is considered free for spending. There is also a table to track changes in the amount of currency. There is also a page for reading the game's lore. The site is fully responsive."
+			},
+			"5": {
+				"name": "Games API",
+				"description": "List of games with filtering and sorting. There are also separate pages for each game with their own information."
+			},
+			"6": {
+				"name": "Internet shop",
+				"description": "An ordinary online store with categories and subcategories. Product search, filtering, sorting, profile, shopping cart, favorite products, implemented on firebase. Responsive for all sizes."
+			},
+			"7": {
+				"name": "Mobile app builder",
+				"description": "Drag'n'drop mobile app builder with ready-made components to speed up development. There is also customization of ready-made components for the needs of the user."
+			}
+		}
+	}
+}

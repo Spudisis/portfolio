@@ -1,0 +1,20 @@
+@import "./values";
+@mixin center {
+	margin: 0 auto;
+}
+@mixin borderSection {
+	border-top-color: var(--border-color-section);
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+@mixin headerSection {
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+	color: var(--nav-color-text);
+	@media screen and (max-width: $width420) {
+		font-size: 28px;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,90 @@
+@import "../../styles/values";
+@import "../../styles/mixin";
+.content {
+	max-width: $width1280;
+	margin: 0 auto;
+	height: auto;
+	padding: 50px;
+	@media screen and (max-width: $width720) {
+		padding: 50px 10px 80px;
+	}
+}
+
+.wrapper {
+	background-image: var(--background-color-section-odd);
+	height: auto;
+	@include borderSection;
+}
+
+.header {
+	@include headerSection;
+}
+.project {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 30px;
+	@media screen and (max-width: $width1080) {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 30px;
+	}
+}
+.imagesList {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@media screen and (max-width: $width1080) {
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	@media screen and (max-width: $width420) {
+		gap: 5px;
+	}
+}
+.description {
+	font-size: 40px;
+	color: var(--nav-color-text);
+	@media screen and (max-width: $width720) {
+		font-size: 30px;
+	}
+	@media screen and (max-width: $width420) {
+		font-size: 24px;
+	}
+}
+.buttonsHref {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	@media screen and (max-width: $width420) {
+		margin-top: 10px;
+	}
+}
+.href {
+	display: inline-block;
+	min-width: 110px;
+	height: 50px;
+	padding: 20px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 15px;
+	font-size: 28px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+	border: 1px solid var(--nav-color-text-active);
+	color: var(--nav-color-text);
+	&:hover {
+		background-color: var(--hover-nav-color);
+	}
+	@media screen and (max-width: $width600) {
+		min-width: 70px;
+		font-size: 22px;
+		padding: 10px;
+	}
+	@media screen and (max-width: $width420) {
+		font-size: 20px;
+	}
+}

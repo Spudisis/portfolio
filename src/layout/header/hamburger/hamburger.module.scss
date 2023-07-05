@@ -1,0 +1,22 @@
+.hamburger_lines {
+	display: block;
+	height: 26px;
+	width: 32px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+	&:hover {
+		.line {
+			background: var(--nav-color-text-active);
+		}
+	}
+}
+.line {
+	display: block;
+	height: 4px;
+	width: 100%;
+	border-radius: 10px;
+	background: var(--nav-color-text);
+}

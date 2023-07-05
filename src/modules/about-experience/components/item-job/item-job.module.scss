@@ -1,0 +1,174 @@
+@import "../../../../styles/values";
+.item {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	color: var(--nav-color-text);
+	padding: 20px 0px;
+
+	h4 {
+		margin: 0px;
+	}
+	font-size: 50px;
+	@media screen and (max-width: $width1280) {
+		font-size: 44px;
+	}
+	@media screen and (max-width: $width1280) {
+		font-size: 38px;
+	}
+	@media screen and (max-width: $width900) {
+		grid-template-columns: repeat(1, 1fr);
+		font-size: 44px;
+	}
+	@media screen and (max-width: $width720) {
+		font-size: 40px;
+	}
+	@media screen and (max-width: $width600) {
+		font-size: 38px;
+	}
+	@media screen and (max-width: $width420) {
+		font-size: 32px;
+	}
+}
+
+.animationDateName {
+	animation: viewDate 0.7s ease-in-out;
+	@media screen and (max-width: $width900) {
+		animation: viewDateVertical 0.7s ease-in-out;
+	}
+}
+
+.animationInfo {
+	animation: viewInfo 0.7s ease-in-out;
+	@media screen and (max-width: $width900) {
+		animation: viewInfoVertical 0.7s ease-in-out;
+	}
+}
+
+//dateName info
+
+@keyframes viewDate {
+	0% {
+		transform: translate(40%, 0%);
+	}
+	100% {
+		transform: translate(0%, 0%);
+	}
+}
+@keyframes viewInfo {
+	0% {
+		transform: translate(-40%, 0%);
+	}
+	100% {
+		transform: translate(0%, 0%);
+	}
+}
+
+@keyframes viewDateVertical {
+	0% {
+		transform: translate(0%, 40%);
+	}
+	100% {
+		transform: translate(0%, 0%);
+	}
+}
+@keyframes viewInfoVertical {
+	0% {
+		transform: translate(0%, -40%);
+	}
+	100% {
+		transform: translate(0%, 0%);
+	}
+}
+
+.infoAboutJob {
+	padding: 20px;
+	background-color: var(--main-info-job-color);
+	box-shadow: var(--shadow-color-info-job);
+	border-radius: 0px 0px 20px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.dateName {
+	padding: 20px;
+	background-size: 100% 100%;
+	background-position: 100%;
+	box-shadow: var(--border-color-gradient);
+	border-radius: 20px 0px 0px 20px;
+	color: var(--inverse-color);
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+	.wrapper {
+		margin: 20px;
+		padding: 20px;
+		border-radius: 20px;
+		background-color: white;
+		@media screen and (max-width: $width420) {
+			padding: 10px;
+			margin: 10px;
+		}
+	}
+	@media screen and (max-width: $width900) {
+		border-radius: 20px 20px 0px 0px;
+	}
+	@media screen and (max-width: $width420) {
+		padding: 10px;
+	}
+}
+
+.nameJob {
+	background-color: var(--job-name-bgc-color);
+	padding: 20px;
+	border-bottom-width: 1px;
+	border-color: rgba(0, 0, 0, 0.05);
+	margin: 0px;
+	font-size: 0.8em;
+}
+.description {
+	color: var(--second-plan-text);
+	font-size: 0.45em;
+}
+.info {
+	border-radius: 20px;
+	overflow: hidden;
+	@media screen and (max-width: $width900) {
+		border-radius: 0px 0px 20px 20px;
+	}
+}
+
+.date {
+	padding: 20px 0px;
+	font-size: 0.7em;
+	font-weight: 600;
+}
+
+.dateNameEven {
+	@media screen and (min-width: $width901) {
+		grid-area: 1 / 2 / 2 / 3;
+		border-radius: 0px 20px 20px 0px;
+	}
+}
+.infoEven {
+	@media screen and (min-width: $width901) {
+		grid-area: 1 / 1 / 2 / 2;
+	}
+}
+
+.nameSectionList {
+	font-size: 0.6em;
+}
+.sectionList {
+	margin: 10px 0px;
+	font-size: 0.45em;
+	@media screen and (max-width: $width420) {
+		padding-left: 10px;
+	}
+}
+
+.achieve {
+	font-size: 0.42em;
+	span {
+		border-bottom: 1px solid var(--nav-color-text);
+	}
+}

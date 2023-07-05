@@ -1,0 +1,42 @@
+@import "../../styles/values";
+@import "../../styles/mixin";
+.content {
+	max-width: $width1280;
+	margin: 0 auto;
+	height: auto;
+	padding: 50px;
+}
+
+.wrapper {
+	background-image: var(--background-color-section-odd);
+	height: auto;
+	@include borderSection;
+}
+
+.header {
+	@include headerSection;
+}
+.skillList {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	@media screen and (max-width: $width420) {
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+}
+.skill {
+	padding: 8px;
+	font-size: 26px;
+	transition: 0.2s ease;
+	color: var(--nav-color-text);
+	cursor: default;
+	@media screen and (max-width: $width420) {
+		font-size: 22px;
+		padding: 4px;
+	}
+	&:hover {
+		color: orange;
+	}
+}
