@@ -19,4 +19,5 @@ export const skills = [
 	{ name: "MUI" },
 	{ name: "yup" },
 	{ name: "Figma" },
+	{ name: "Firebase" },
 ];
