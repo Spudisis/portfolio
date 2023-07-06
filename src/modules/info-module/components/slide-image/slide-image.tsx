@@ -43,49 +43,40 @@ export const SlideImage = () => {
 		<div className={s.wrapper}>
 			<div className={s.container}>
 				<picture>
-					<source srcSet={mobxIconAvif} type="image/avif" />
 					<source srcSet={mobxIconWebp} type="image/webp" />
 					<img src={mobxIcon} alt="mobxIcon" />
 				</picture>
 				<picture>
-					<source srcSet={reactIconAvif} type="image/avif" />
 					<source srcSet={reactIconWebp} type="image/webp" />
 					<img src={reactIcon} alt="reactIcon" />
 				</picture>
 				<picture>
-					<source srcSet={reduxIconAvif} type="image/avif" />
 					<source srcSet={reduxIconWebp} type="image/webp" />
 					<img src={reduxIcon} alt="reduxIcon" />
 				</picture>
 				<picture>
-					<source srcSet={jsAvif} type="image/avif" />
 					<source srcSet={jsWebp} type="image/webp" />
 					<img src={js} alt="js" />
 				</picture>
 				<picture>
-					<source srcSet={tsAvif} type="image/avif" />
 					<source srcSet={tsWebp} type="image/webp" />
 					<img src={ts} alt="ts" />
 				</picture>
 				<picture>
-					<source srcSet={styledComponentAvif} type="image/avif" />
 					<source srcSet={styledComponentWebp} type="image/webp" />
 					<img src={styledComponent} alt="styledComponent" />
 				</picture>
 				<img src={webpack} alt="webpack" />
 				<picture>
-					<source srcSet={rhfAvif} type="image/avif" />
 					<source srcSet={rhfWebp} type="image/webp" />
 					<img src={rhf} alt="react hook form" />
 				</picture>
 
 				<picture>
-					<source srcSet={sassAvif} type="image/avif" />
 					<source srcSet={sassWebp} type="image/webp" />
 					<img src={sass} alt="sass" />
 				</picture>
 				<picture>
-					<source srcSet={muiAvif} type="image/avif" />
 					<source srcSet={muiWebp} type="image/webp" />
 					<img src={mui} alt="mui" />
 				</picture>
