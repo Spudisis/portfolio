@@ -10,7 +10,12 @@
 	width: 300px; /* Замените на ширину вашего кругового контейнера */
 	height: 300px; /* Замените на высоту вашего кругового контейнера */
 	border-radius: 50%; /* Создаем круговую форму */
-
+	@media screen and (max-width: 750px) {
+		overflow: hidden;
+	}
+	@media screen and (max-height: 750px) {
+		overflow: hidden;
+	}
 	img {
 		position: absolute;
 		top: 50%;

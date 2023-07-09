@@ -5,10 +5,14 @@ import { ChangeLanguage } from "./change-language";
 import { NavLinks } from "./nav-links";
 import React from "react";
 import { Hamburger } from "./hamburger";
+import { StatusModal } from "layout/store/store";
 
 export const Header = () => {
 	const [modalActive, setModalActive] = React.useState(false);
 
+	React.useEffect(() => {
+		StatusModal.changeStatusModal(modalActive);
+	}, []);
 	const toggleContextChange = (
 		<ThemeContext.Consumer>
 			{({ theme, setTheme }: any) => (
