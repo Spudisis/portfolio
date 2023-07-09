@@ -40,6 +40,11 @@
 	width: 60vw;
 	height: auto;
 	@media screen and (max-width: $width900) {
-		width: 80vw;
+		width: 90vw;
+	}
+
+	@media screen and (max-width: $width600) {
+		height: 300px;
+		object-fit: cover;
 	}
 }
