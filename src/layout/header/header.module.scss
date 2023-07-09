@@ -26,9 +26,9 @@
 }
 
 .modal {
-	position: absolute;
+	position: fixed;
 	background-color: var(--background-color);
-	z-index: 1001;
+	z-index: 1101;
 	width: 100vw;
 	height: 100vh;
 	left: 0px;
@@ -36,7 +36,7 @@
 }
 .close {
 	position: absolute;
-	right: 20px;
+	right: 0px;
 	top: 0px;
 	background-color: inherit;
 	border: none;
