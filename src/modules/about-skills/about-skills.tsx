@@ -8,7 +8,7 @@ export const AboutSkills = () => {
 	return (
 		<div className={s.wrapper}>
 			<div className={s.content}>
-				<h1 className={s.header}>{t("aboutMeSkills.header")}</h1>
+				<h1 className={s.header}>{t("Development stack")}</h1>
 				<ul className={s.skillList}>
 					{skills.map((elem, index) => (
 						<li className={s.skill} key={index}>

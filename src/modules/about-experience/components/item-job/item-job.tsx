@@ -27,13 +27,13 @@ export const ItemJob = ({
 	const masReq = new Array(countReq).fill("a");
 	const masStack = new Array(countStack).fill("a");
 	return (
-		<div className={`${s.item}`} ref={ref}>
+		<div className={s.item} ref={ref}>
 			<div
 				className={`${s.dateName} ${index % 2 === 1 ? s.dateNameEven : ""} ${
 					inView ? (index % 2 === 1 && width > 960 ? s.animationInfo : s.animationDateName) : ""
 				}`}
 				style={{
-					backgroundImage: theme === "dark" ? `url(${gradientDark})` : `url(${gradientLight})`,
+					backgroundImage: `url(${ theme === "dark" ? gradientDark : gradientLight})`,
 				}}
 			>
 				<div className={s.wrapper}>
@@ -49,7 +49,7 @@ export const ItemJob = ({
 				<h3 className={s.nameJob}>{t(`job.${name}.nameJob`)}</h3>
 				<div className={s.infoAboutJob}>
 					<div className={s.list}>
-						<h4 className={s.nameSectionList}>{t(`job.jobResponse`)}</h4>
+						<h4 className={s.nameSectionList}>{t(`Job responsibilities`)}</h4>
 						<ul className={s.sectionList}>
 							{masReq.map((_, index) => (
 								<li key={index}>{t(`job.${name}.requiredJob.${index + 1}`)}</li>
@@ -57,7 +57,7 @@ export const ItemJob = ({
 						</ul>
 					</div>
 					<div className={s.list}>
-						<h4 className={s.nameSectionList}>{t(`job.developStack`)}</h4>
+						<h4 className={s.nameSectionList}>{t(`Development stack`)}</h4>
 						<ul className={s.sectionList}>
 							{masStack.map((_, index) => (
 								<li key={index}>{t(`job.${name}.stack.${index + 1}`)}</li>
@@ -66,7 +66,7 @@ export const ItemJob = ({
 					</div>
 					{t(`job.${name}.achievepments`) && (
 						<div className={s.achieve}>
-							<span>{t(`job.achievements`)}:&nbsp;</span>
+							<span>{t(`Achievements`)}:&nbsp;</span>
 							{t(`job.${name}.achievepments`)}
 						</div>
 					)}

@@ -8,7 +8,7 @@ export const AboutExperience = () => {
 	return (
 		<div className={s.wrapper}>
 			<div className={s.content}>
-				<h1 className={s.header}>{t("aboutMeExp.header")}</h1>
+				<h1 className={s.header}>{t("My experience")}</h1>
 				<div className={s.listItem}>
 					{Job.map((element, index) => (
 						<ItemJob key={index} {...element} index={index} />
