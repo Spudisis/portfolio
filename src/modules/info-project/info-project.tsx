@@ -26,7 +26,7 @@ export const InfoProject = () => {
 							</a>
 							{obj.visit && (
 								<a href={obj.visit} className={s.href} target="_blank">
-									{t(`projects.visit`)}
+									{t(`visit`)}
 								</a>
 							)}
 						</div>

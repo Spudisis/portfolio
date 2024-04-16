@@ -11,7 +11,7 @@ export const Project = ({ id, preview }: ObjectType) => {
 			<img className={s.image} src={preview} height={200} alt="screen site" />
 			<h3 className={s.name}>{t(`projects.project.${id}.name`)}</h3>
 			<Link to={PATHS.PROJECTS + "/" + id} relative="path" className={s.button}>
-				{t("projects.more")}
+				{t("More")}
 			</Link>
 		</div>
 	);

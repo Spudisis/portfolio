@@ -80,11 +80,11 @@
 			"achievepments": ""
 		}
 	},
+	"My projects":"My projects",
+	"More":"More",
+	"visit": "Visit",
+	"back": "Back",
 	"projects": {
-		"header": "My projects",
-		"more": "More",
-		"visit": "Visit",
-		"back": "Back",
 		"project": {
 			"1": {
 				"name": "Music player",

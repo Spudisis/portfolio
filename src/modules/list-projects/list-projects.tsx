@@ -7,7 +7,7 @@ export const ListProjects = () => {
 	return (
 		<div className={s.wrapper}>
 			<div className={s.content}>
-				<h1 className={s.header}>{t("projects.header")}</h1>
+				<h1 className={s.header}>{t("My projects")}</h1>
 				<div className={s.listProjects}>
 					{projects.map((elem) => (
 						<Project key={elem.id} {...elem} />
