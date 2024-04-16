@@ -19,7 +19,7 @@ export const ItemJob = ({
 }) => {
 	const { theme } = React.useContext(ThemeContext) as { theme: string };
 	const { width } = useWindowSize();
-	console.log(width);
+
 	const { t } = useTranslation();
 	const { ref, inView } = useInView({
 		threshold: 0,
