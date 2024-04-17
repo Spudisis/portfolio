@@ -14,7 +14,7 @@
 	"About me":"About me",
 	"I am Alexander. I live in Dzerzhinsk, Nizhny Novgorod region. I started immersing myself in IT 4 years ago from learning C#, later moved to frontend and a year later started my career as a layout designer on a freelance exchange.":"I am Alexander. I live in Dzerzhinsk, Nizhny Novgorod region. I started immersing myself in IT 4 years ago from learning C#, later moved to frontend and a year later started my career as a layout designer on a freelance exchange.",
 	"Studied new technologies and later switched to React. I found my first job in a team, where I improved my skills in both development and communication skills in joint development to achieve common goals. He has also worked on various projects ranging from simple Django template development to a large website builder.":"Studied new technologies and later switched to React. I found my first job in a team, where I improved my skills in both development and communication skills in joint development to achieve common goals. He has also worked on various projects ranging from simple Django template development to a large website builder.",
-	"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers, both for full-time and project work in a friendly team :). Always in touch.":"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers, both for full-time and project work in a friendly team :). Always in touch.",
+	"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers for full-time work in a friendly team :). Always in touch.":"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers for full-time work in a friendly team :). Always in touch.",
 
 	"Development stack2": "Development stack",
 	"My experience": "My experience",
@@ -72,7 +72,7 @@
 			"achievepments": "Improved semantics and accessibility on existing pages"
 		},
 		"four": {
-			"date": "June 2021 - August 2021",
+			"date": "March 2021 - August 2021",
 			"nameJob": "Registration of intellectual property",
 			"description": "Internship at AO НИИК.",
 			"stack": { "1": "React", "2": "TypeScript", "3": "MUI", "4": "Redux Toolkit", "5": "Formik" },

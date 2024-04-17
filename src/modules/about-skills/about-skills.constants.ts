@@ -8,6 +8,7 @@ export const skills = [
 	{ name: "Cross-browser & adaptive layout" },
 	{ name: "React" },
 	{ name: "Redux Toolkit" },
+	{ name: "Redux Saga" },
 	{ name: "Mobx" },
 	{ name: "Webpack" },
 	{ name: "Vite" },
@@ -20,4 +21,5 @@ export const skills = [
 	{ name: "yup" },
 	{ name: "Figma" },
 	{ name: "Firebase" },
+	{ name: 'Tailwind' },
 ];

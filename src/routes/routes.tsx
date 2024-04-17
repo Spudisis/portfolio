@@ -1,11 +1,11 @@
-import { HashRouter, Routes as RoutesWrap, Route } from "react-router-dom";
+import { Routes as RoutesWrap, Route, BrowserRouter } from "react-router-dom";
 import { PATHS } from "./paths-pages";
 import { AboutMe, Main, MyProjects, NotFound, ProjectInfo } from "pages";
 import { Header, NavHref } from "layout";
 import s from "./routes.module.scss";
 export const Routes = () => {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Header />
 			<NavHref />
 			<div className={s.wrapperPages}>
@@ -17,6 +17,6 @@ export const Routes = () => {
 					<Route path="*" element={<NotFound />} />
 				</RoutesWrap>
 			</div>
-		</HashRouter>
+		</BrowserRouter>
 	);
 };

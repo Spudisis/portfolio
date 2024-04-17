@@ -14,7 +14,7 @@
 	"About me":"Обо мне",
 	"I am Alexander. I live in Dzerzhinsk, Nizhny Novgorod region. I started immersing myself in IT 4 years ago from learning C#, later moved to frontend and a year later started my career as a layout designer on a freelance exchange.":"Я Александр. Живу в Дзержинске Нижегородской области. Начал погружаться в IT 4 года назад с изучения C#, позже пересел на frontend и через год начал карьеру верстальщиком на фриланс бирже.",
 	"Studied new technologies and later switched to React. I found my first job in a team, where I improved my skills in both development and communication skills in joint development to achieve common goals. He has also worked on various projects ranging from simple Django template development to a large website builder.":"Изучал новые технологии и позже перешел на React. Нашел первую работу в команде, где поднял свои скилы как в разработке, так и навыки коммуникаций в совместной разработке для достижения общих целей. Также работал в различных проектах, начиная от разработки обычных шаблонов под Django, до крупного конструктора сайтов.",
-	"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers, both for full-time and project work in a friendly team :). Always in touch.":"Имею степень бакалавра по направлению Информационные системы и технологии НГТУ. В настоящее время продолжаю изучать новые технологии и best practices, для написания всё более качественного, поддерживаемого и читаемого кода. Открыт для новых различных предложений, как на полноценную, так и на проектную работу в дружелюбный коллектив :). Всегда на связи.",
+	"I have a bachelor's degree in space information systems and technologies from NNSTU. Currently, I continue to study new technologies and best practices to write better, more maintainable and readable code. Open for new various offers for full-time work in a friendly team :). Always in touch.":"Имею степень бакалавра по направлению Информационные системы и технологии НГТУ. В настоящее время продолжаю изучать новые технологии и best practices, для написания всё более качественного, поддерживаемого и читаемого кода. Открыт для новых различных предложений, на фулл-тайм работу в дружелюбный коллектив :). Всегда на связи.",
 	
 	"Development stack2": "Мой стек",
 	"My experience": "Мой опыт",
@@ -72,7 +72,7 @@
 			"achievepments": "Улучшил семантику и доступность на уже существующих страницах"
 		},
 		"four": {
-			"date": "Июнь 2021 - Август 2021",
+			"date": "Март 2021 - Август 2021",
 			"nameJob": "Регистрация интеллектуальной собственности",
 			"description": "Стажировка в АО НИИК.",
 			"stack": { "1": "React", "2": "TypeScript", "3": "MUI", "4": "Redux Toolkit", "5": "Formik" },
