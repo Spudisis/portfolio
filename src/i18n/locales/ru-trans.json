@@ -115,5 +115,10 @@
 				"description": "Конструктор мобильных приложений при помощи drag'n'drop и готовых компонентов, что позволяет ускорить разработку. Также есть кастомизация готовых компонентов под нужды пользователя."
 			}
 		}
-	}
+	},
+	"Layout and development of new functionality in the main application, development of the admin panel. Involved in migration of an existing application to NextJS, development of a common UI-kit on TW for two applications. Rewrote the main application from JS to TS.":"Верстка и разработка нового функционала в основном приложении, разработка админ-панели. Занимался миграцией существующего приложения на NextJS, разработкой общего UI-кита на TW для двух приложений. Рефактор основного приложения с JS на TS.",
+	"Layout and development of new functionality": "Верстка и разработка нового функционала", 
+	"Application support and development of new related projects":"Поддержка основного приложения и разработка новых сопутствующих проектов", 
+	"Refactoring existing code":"Рефакторинг существующего кода", 
+	"Designing new applications":"Проектирование новых приложений"
 }

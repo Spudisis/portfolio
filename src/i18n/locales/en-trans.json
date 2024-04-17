@@ -115,5 +115,10 @@
 				"description": "Drag'n'drop mobile app builder with ready-made components to speed up development. There is also customization of ready-made components for the needs of the user."
 			}
 		}
-	}
+	},
+	"Layout and development of new functionality in the main application, development of the admin panel. Involved in migration of an existing application to NextJS, development of a common UI-kit on TW for two applications. Rewrote the main application from JS to TS.":"Layout and development of new functionality in the main application, development of the admin panel. Involved in migration of an existing application to NextJS, development of a common UI-kit on TW for two applications. Rewrote the main application from JS to TS.",
+	"Layout and development of new functionality": "Layout and development of new functionality", 
+	"Application support and development of new related projects":"Application support and development of new related projects", 
+	"Refactoring existing code":"Refactoring existing code", 
+	"Designing new applications":"Designing new applications"
 }
