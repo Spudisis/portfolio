@@ -16,6 +16,7 @@ export const skills = [
 	{ name: "React Hook Form" },
 	{ name: "Formik" },
 	{ name: "i18next" },
+	{ name: "next-intl" },
 	{ name: "styled components" },
 	{ name: "MUI" },
 	{ name: "yup" },
