@@ -24,7 +24,7 @@ export const images = [
 		],
 	},
 	{
-		visit: "https://spudisis.github.io/genshinCalc/#/genshinCalc/",
+		visit: "https://genshin-calc-seven.vercel.app/",
 		gitHub: "https://github.com/Spudisis/genshinCalc",
 		images: [
 			"/calc_1.png",
