@@ -23,6 +23,7 @@ export const ItemJob = ({
 	const { t } = useTranslation();
 	const { ref, inView } = useInView({
 		threshold: 0,
+		triggerOnce: true
 	});
 	const masReq = new Array(countReq).fill("a");
 	const masStack = new Array(countStack).fill("a");
