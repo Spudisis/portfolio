@@ -5,6 +5,7 @@ export const AboutMeGeneral = () => {
 	const { t } = useTranslation();
 	const { ref, inView } = useInView({
 		threshold: 0,
+		triggerOnce: true
 	});
 	return (
 		<div className={s.wrapper}>
