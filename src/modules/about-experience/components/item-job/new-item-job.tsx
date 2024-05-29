@@ -27,6 +27,7 @@ export const NewItemJob = ({
 	const { t } = useTranslation();
 	const { ref, inView } = useInView({
 		threshold: 0,
+		triggerOnce: true
 	});
 
 	return (
