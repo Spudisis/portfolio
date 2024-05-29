@@ -14,6 +14,7 @@ export const skills = [
 	{ name: "Vite" },
 	{ name: "Git" },
 	{ name: "React Hook Form" },
+	{ name: "Next JS" },
 	{ name: "Formik" },
 	{ name: "i18next" },
 	{ name: "next-intl" },
