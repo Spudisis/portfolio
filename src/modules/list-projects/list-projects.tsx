@@ -12,6 +12,7 @@ export const ListProjects = () => {
 					{projects.map((elem) => (
 						<Project key={elem.id} {...elem} />
 					))}
+					<Project id={-1} preview={'/github.svg'} github href="https://github.com/Spudisis" />
 				</div>
 			</div>
 		</div>

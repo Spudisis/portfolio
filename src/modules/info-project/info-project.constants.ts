@@ -1,5 +1,14 @@
 export const images = [
 	{
+		visit: "",
+		gitHub: "https://github.com/Spudisis/Frankenstein",
+		images: [
+			"/cont_1.png",
+			"/cont_2.png",
+			"/cont_3.png",
+		],
+	},
+	{
 		visit: "https://spudisis.github.io/media/",
 		gitHub: "https://github.com/Spudisis/media",
 		images: [
@@ -51,13 +60,5 @@ export const images = [
 			"/inet_1.png",
 		],
 	},
-	{
-		visit: "",
-		gitHub: "https://github.com/Spudisis/Frankenstein",
-		images: [
-			"/cont_1.png",
-			"/cont_2.png",
-			"/cont_3.png",
-		],
-	},
+	
 ];

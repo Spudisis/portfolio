@@ -3,4 +3,5 @@ export type ObjectType = {
 	href: string;
 
 	preview: string;
+	github?:boolean
 };

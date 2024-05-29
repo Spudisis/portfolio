@@ -86,34 +86,38 @@
 	"back": "Back",
 	"projects": {
 		"project": {
+			"-1":{
+				"name": "My github"
+			},
 			"1": {
+				"name": "Mobile app builder",
+				"description": "Drag'n'drop mobile app builder with ready-made components to speed up development. There is also customization of ready-made components for the needs of the user."
+			},
+			"2": {
 				"name": "Music player",
 				"description": "Custom player for playing music. You need to insert a link in the input field, take it in the project description on GitHub."
 			},
-			"2": {
+			"3": {
 				"name": "Extension for VK spam reactions",
 				"description": "'Get your neighbor', when the script is enabled, the selected reaction will be put on each message of the specified user."
 			},
-			"3": {
+			"4": {
 				"name": "Extension for VK documents",
 				"description": "Comfortable viewing of gif files, compared to the original."
 			},
-			"4": {
+			"5": {
 				"name": "Game calculator",
 				"description": "Genshin Impact Calculator. Allows you to calculate the currency to save for future heroes and the remainder of the calculations is considered free for spending. There is also a table to track changes in the amount of currency. There is also a page for reading the game's lore. The site is fully responsive."
 			},
-			"5": {
+			"6": {
 				"name": "Games API",
 				"description": "List of games with filtering and sorting. There are also separate pages for each game with their own information."
 			},
-			"6": {
+			"7": {
 				"name": "Internet shop",
 				"description": "An ordinary online store with categories and subcategories. Product search, filtering, sorting, profile, shopping cart, favorite products, implemented on firebase. Responsive for all sizes."
-			},
-			"7": {
-				"name": "Mobile app builder",
-				"description": "Drag'n'drop mobile app builder with ready-made components to speed up development. There is also customization of ready-made components for the needs of the user."
 			}
+		
 		}
 	},
 	"Layout and development of new functionality in the main application, development of the admin panel. Involved in migration of an existing application to NextJS, development of a common UI-kit on TW for two applications. Rewrote the main application from JS to TS.":"Layout and development of new functionality in the main application, development of the admin panel. Involved in migration of an existing application to NextJS, development of a common UI-kit on TW for two applications. Rewrote the main application from JS to TS.",

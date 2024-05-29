@@ -8,37 +8,38 @@ import contructor from "pictures/contructor.png";
 export const projects: ObjectType[] = [
 	{
 		id: 1,
+		href: "Frankenstein",
+		preview: contructor,
+	},
+	{
+		id: 2,
 		href: "media",
 		preview: media,
 	},
 	{
-		id: 2,
+		id: 3,
 		href: "VK-extenshion-emoji",
 		preview: svg,
 	},
 	{
-		id: 3,
+		id: 4,
 		href: "VKFileExtension",
 		preview: svg,
 	},
 	{
-		id: 4,
+		id: 5,
 		href: "genshinCalc",
 		preview: genshinCalc,
 	},
 	{
-		id: 5,
+		id: 6,
 		href: "gamesApi",
 		preview: gamesApi,
 	},
 	{
-		id: 6,
+		id: 7,
 		href: "inetShopTest",
 		preview: inetShop,
 	},
-	{
-		id: 7,
-		href: "Frankenstein",
-		preview: contructor,
-	},
+	
 ];
