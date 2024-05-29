@@ -9,7 +9,7 @@ import email from "./pictures/gmail.png";
 import emailWebp from "./pictures/gmail.webp";
 
 export const NavHref = () => {
-	const timer = React.useRef<null | NodeJS.Timer>(null)
+	const timer = React.useRef<any>(null)
 	const [hasCopy, setHasCopy] = React.useState(false)
 
 	const handleCopy = ()=> {
