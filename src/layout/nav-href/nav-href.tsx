@@ -1,14 +1,29 @@
 import s from "./nav-href.module.scss";
 import gitHub from "./pictures/git.png";
 import gitHubWebp from "./pictures/git.webp";
-
+import { Icon } from '@iconify/react';
 import tg from "./pictures/tg.png";
 import tgWebp from "./pictures/tg.webp";
-
+import React from 'react'
 import email from "./pictures/gmail.png";
 import emailWebp from "./pictures/gmail.webp";
 
 export const NavHref = () => {
+	const timer = React.useRef<null | NodeJS.Timer>(null)
+	const [hasCopy, setHasCopy] = React.useState(false)
+
+	const handleCopy = ()=> {
+		if (timer.current){
+			clearTimeout(timer.current)
+		}
+		navigator.clipboard.writeText('alekasisbb@gmail.com')
+		setHasCopy(true)
+		timer.current = setTimeout(()=> {
+			setHasCopy(false)
+		}, 1000)
+	}
+	
+
 	return (
 		<nav className={s.navBar}>
 			<ul className={s.list}>
@@ -29,11 +44,20 @@ export const NavHref = () => {
 					</a>
 				</li>
 				<li className={s.item_link}>
-					<picture>
-						<source srcSet={emailWebp} type="image/webp" />
-						<img src={email} alt="icon gmail" className={s.image} />
-					</picture>
-					<div className={s.email}>alekasisbb@gmail.com</div>
+					<a href='mailto:alekasisbb@gmail.com' className={s.hrefEmail}>
+						<picture>
+							<source srcSet={emailWebp} type="image/webp" />
+							<img src={email} alt="icon gmail" className={s.image} />
+						</picture>
+					</a>
+					<div className={s.wrapperSideEmail}>
+							<div className={s.email}>
+								<span>alekasisbb@gmail.com</span> 
+							<button className={s.buttonCopy} onClick={handleCopy}>
+								<Icon icon="lets-icons:copy-light" style={{ color: hasCopy ? 'green' : ''}} />
+							</button>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</nav>
