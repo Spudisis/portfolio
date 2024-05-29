@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export const AboutExperience = () => {
 	const { t } = useTranslation();
 	return (
-		<div className={s.wrapper}>
+		<div className={s.wrapper}> 
 			<div className={s.content}>
 				<h1 className={s.header}>{t("My experience")}</h1>
 				<div className={s.listItem}>
